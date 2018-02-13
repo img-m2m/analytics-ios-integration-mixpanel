@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/segment-integrations/analytics-ios-integration-mixpanel.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/segment'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
 
-  s.dependency 'Analytics', '~> 3.0'
-  s.dependency 'Mixpanel', '~> 3.0'
+  s.dependency 'Analytics', '~> 3.6.9'
+  s.dependency 'Mixpanel', '~> 3.2.6'
 end
